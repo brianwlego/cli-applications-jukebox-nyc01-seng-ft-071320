@@ -35,6 +35,7 @@ def play(songs)
     puts "Playing #{songs[user_input.to_i-1]}"
   elsif user_input == songs.each {|song| song}
     puts "Playing #{song}"
+    binding.pry
   end
 end  
 
