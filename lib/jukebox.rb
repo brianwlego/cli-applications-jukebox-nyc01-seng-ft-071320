@@ -34,6 +34,8 @@ def play (songs)
         puts "Playing Phoenix - Consolation Prizes"
       when "8" || "Cats in the Cradle"
         puts "Playing Harry Chapin - Cats in the Cradle"
+      when "9" || "Keep It Loose, Keep It Tight"
+        puts "Playing "
         
         
         
