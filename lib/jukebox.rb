@@ -10,6 +10,6 @@ end
 
 
 def list (songs_array)
-  songs_array.each_index {|song| puts song}
+  songs_array.each_index {|song, index| puts index+1 song}
   binding.pry
 end  
