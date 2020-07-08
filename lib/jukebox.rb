@@ -38,8 +38,13 @@ def play (songs)
         puts "Playing Amos Lee - Keep It Loose, Keep It Tight"
       else
         puts "Invalid input, please try again"
+        play(songs)
     end
 end  
+
+def exit_jukebox 
+  puts "Goodbye"  
+end
 
 
 
