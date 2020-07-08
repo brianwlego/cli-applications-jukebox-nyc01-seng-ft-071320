@@ -30,7 +30,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  output = "Invalid input"
+  output = "Invalid input, please try again"
   songs.each_with_index do |song, index_num|
     case user_input
       when song then output = "Playing #{song}"
