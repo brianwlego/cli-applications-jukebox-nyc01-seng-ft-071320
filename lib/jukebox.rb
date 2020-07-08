@@ -34,7 +34,7 @@ def play(songs)
   songs.each_with_index do |song, index_num|
     case user_input
       when song then output = "Playing #{song}"
-      when "#{index_num+1}" then output = "Playing#{song}"
+      when "#{index_num+1}" then output = "Playing #{song}"
       binding.pry
     end
   end  
