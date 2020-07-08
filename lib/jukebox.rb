@@ -29,7 +29,7 @@ end
 
 def play (songs)
   puts "Please enter a song name or number:"
-  user_input = gets.strip.to_string
+  user_input = gets.strip
     case user_input
       when "1" || "1901"
         puts "Playing Phoenix - 1901"
