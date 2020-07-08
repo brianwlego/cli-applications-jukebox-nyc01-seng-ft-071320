@@ -29,7 +29,8 @@ def play (songs)
       when "5" || "Tiga"
         puts "Playing (Far From) Home - Tiga"
       when "6" || "Abducted"
-        puts "Playing "
+        puts "Playing The Cults - Abducted"
+        
         
         
       else
