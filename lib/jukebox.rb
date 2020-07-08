@@ -18,7 +18,9 @@ def play (songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
     case user_input
-      when 
+      when 1 || 
+        
+        
         
       else
         puts "Invalid input, please try again"
