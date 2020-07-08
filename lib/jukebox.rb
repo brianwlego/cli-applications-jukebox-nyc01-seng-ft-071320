@@ -35,7 +35,7 @@ def play(songs)
     binding.pry
     case user_input
       when song then puts "Playing #{song}"
-      when 
+    end 
   end  
 end  
 
