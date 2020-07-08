@@ -20,9 +20,10 @@ def play (songs)
     case user_input
       when "1" || "1901"
         puts "Playing Phoenix - 1901"
-      when "2" || 
-        puts "Playing"
-        
+      when "2" || "Wait Up"
+        puts "Playin Tokyo Police Club - Wait Up"
+      when "3" || "Too Much"
+        puts "Playing "
         
         
       else
