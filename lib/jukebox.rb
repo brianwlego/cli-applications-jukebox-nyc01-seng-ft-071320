@@ -30,10 +30,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  binding.pry
+  #binding.pry
   if user_input.to_i <= songs.length
     puts "Playing #{songs[user_input.to_i-1]}"
-    binding.pry
+    #binding.pry
   end
 end  
 
