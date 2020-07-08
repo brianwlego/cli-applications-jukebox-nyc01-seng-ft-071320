@@ -19,7 +19,7 @@ def play (songs)
   user_input = gets.strip.to_string
     case user_input
       when "1" || "1901"
-        puts 
+        puts "Playing "
         
         
         
