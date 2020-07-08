@@ -30,17 +30,16 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-    
+  songs.each do |song|
+    binding.pry
     case user_input
-      songs.each do |song|
-      binding.pry
       when 
         
       else
         puts "Invalid input, please try again"
         #play(songs)
-      end  
     end
+  end  
 end  
 
 def exit_jukebox 
