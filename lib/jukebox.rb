@@ -35,10 +35,7 @@ def play (songs)
       when "8" || "Cats in the Cradle"
         puts "Playing Harry Chapin - Cats in the Cradle"
       when "9" || "Keep It Loose, Keep It Tight"
-        puts "Playing "
-        
-        
-        
+        puts "Playing Amos Lee - Keep It Loose, Keep It Tight"
       else
         puts "Invalid input, please try again"
     end
