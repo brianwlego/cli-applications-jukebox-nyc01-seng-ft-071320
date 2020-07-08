@@ -27,6 +27,8 @@ def play (songs)
       when "4" || "Young Blood"
         puts "Playing The Naked and the Famous - Young Blood"
       when "5" || "Tiga"
+        puts "Playing (Far From) Home - Tiga"
+      when "6" || "Abducted"
         puts "Playing "
         
         
