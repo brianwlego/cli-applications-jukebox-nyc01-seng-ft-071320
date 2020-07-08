@@ -14,4 +14,4 @@ def list (songs_array)
   binding.pry
 end  
 
-list(song)
+list(songs)
