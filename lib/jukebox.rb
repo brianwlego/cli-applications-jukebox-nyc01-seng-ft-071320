@@ -36,11 +36,6 @@ def play(songs)
     elsif user_input == song
       puts "Playing #{song}"
     end 
-    if user_input != "#{index+1}"
-      puts "Invalid input, please try again"
-    elsif user_input != song
-      puts "Invalid input, please try again"
-    end
   end  
 end  
 
