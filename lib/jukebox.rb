@@ -34,9 +34,9 @@ def play(songs)
   if user_input.to_i == (1..9)
     #binding.pry
     puts "Playing #{songs[user_input.to_i-1]}"
-  elsif songs.each {|song| user_input == song}
-    puts "Playing #{song}"
-    binding.pry
+  #elsif songs.each {|song| user_input == song}
+   # puts "Playing #{song}"
+    #binding.pry
   end
 end  
 
