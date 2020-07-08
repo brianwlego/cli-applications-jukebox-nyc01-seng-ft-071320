@@ -32,7 +32,7 @@ def play(songs)
   user_input = gets.strip
   
   songs.each_with_index do |song, index|
-    binding.pry
+    #binding.pry
     if  user_input == ("#{index+1}" || song)
       puts "Playing #{song}"
     #elsif user_input == song
