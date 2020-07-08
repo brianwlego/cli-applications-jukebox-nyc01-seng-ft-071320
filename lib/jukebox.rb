@@ -33,7 +33,7 @@ def play (songs)
       when "7" || "Consolation Prizes"
         puts "Playing Phoenix - Consolation Prizes"
       when "8" || "Cats in the Cradle"
-        puts "Playing "
+        puts "Playing Harry Chapin - Cats in the Cradle"
         
         
         
