@@ -9,7 +9,24 @@ def help
 end
 
 
-def list (songs_array)
-  songs_array.each_index {|song, index| puts index+1 song}
-  binding.pry
+def list (songs)
+  songs.each_index {|song, index| puts index+1 song}
+  #binding.pry
 end  
+
+def play (songs)
+  puts "Please enter a song name or number:"
+  user_input = gets.strip
+    case user_input
+      when 
+        
+      else
+        puts "Invalid input, please try again"
+    end
+end  
+
+
+
+
+
+
