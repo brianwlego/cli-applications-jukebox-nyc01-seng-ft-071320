@@ -30,6 +30,8 @@ def play (songs)
         puts "Playing (Far From) Home - Tiga"
       when "6" || "Abducted"
         puts "Playing The Cults - Abducted"
+      when "7" || "Consolation Prizes"
+        puts "Playing "
         
         
         
