@@ -32,13 +32,7 @@ def play (songs)
   user_input = gets.strip
   songs.each do |song|
     binding.pry
-    case user_input
-      when 
-        
-      else
-        puts "Invalid input, please try again"
-        #play(songs)
-    end
+    
   end  
 end  
 
