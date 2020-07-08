@@ -33,7 +33,9 @@ def play(songs)
   songs.each_with_index do |song, index|
     #binding.pry
     case user_input
-      when "#{index+1}" || song
+      when "#{index+1}"
+        puts "Playing #{song}"
+      when "#{song}"
         puts "Playing #{song}"
         binding.pry
       else
