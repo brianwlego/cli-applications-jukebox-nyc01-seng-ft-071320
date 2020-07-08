@@ -31,12 +31,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   songs.each_with_index do |song, index|
-    if  
-      when user_input == "#{index+1}" || song
+    if  user_input == "#{index+1}" || song
         puts "Playing #{song}"
-      #when user_input == song 
-       # puts "Playing #{song}"
-        #binding.pry
+    
     end  
   end  
 end  
