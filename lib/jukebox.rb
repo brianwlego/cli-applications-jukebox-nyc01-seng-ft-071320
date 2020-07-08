@@ -24,7 +24,8 @@ def play (songs)
         puts "Playin Tokyo Police Club - Wait Up"
       when "3" || "Too Much"
         puts "Playing Sufjan Stevens - Too Much"
-        
+      when "4" || "Young Blood"
+        puts "Playing "
         
         
       else
