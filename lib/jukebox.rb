@@ -31,10 +31,10 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
-  
-  songs.each_with_index do |song, index|
+  case user_input
+    songs.each_with_index do |song, index|
     
-    case user_input
+    
       when song then puts "Playing #{song}"
       when "#{index+1}" then puts "Playing #{song}"
       else puts "Invalid input, please try again"
