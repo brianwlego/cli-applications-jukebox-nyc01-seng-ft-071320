@@ -37,7 +37,7 @@ def play(songs)
       when song then puts "Playing #{song}"
       when "#{index+1}" then puts "Playing #{song}"
       else puts "Invalid input, please try again"
-      #binding.pry  
+      binding.pry  
     end 
   end  
 end  
