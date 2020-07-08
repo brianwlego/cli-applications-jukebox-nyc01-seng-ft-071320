@@ -13,3 +13,5 @@ def list (songs_array)
   songs_array.each_index {|song| puts song}
   binding.pry
 end  
+
+list(song)
