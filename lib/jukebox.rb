@@ -1,3 +1,5 @@
+require 'pry'
+
 def help
   puts "I accept the following commands:"
   puts "- help : displays this help message"
@@ -8,6 +10,6 @@ end
 
 
 def list (songs_array)
-  
-  
+  songs_array.each_index {|song| puts song}
+  binding.pry
 end  
