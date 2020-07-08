@@ -25,6 +25,8 @@ def play (songs)
       when "3" || "Too Much"
         puts "Playing Sufjan Stevens - Too Much"
       when "4" || "Young Blood"
+        puts "Playing The Naked and the Famous - Young Blood"
+      when "5" || "Tiga"
         puts "Playing "
         
         
