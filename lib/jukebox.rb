@@ -31,7 +31,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   songs.each_with_index do |song, index_num|
-    
+    if user_input.to_1 <= songs.length 
+      if 
+        
+      end
+      puts "Invalid input, please try again"
     binding.pry
   end  
 end  
