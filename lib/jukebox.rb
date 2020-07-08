@@ -38,7 +38,7 @@ def play(songs)
       #binding.pry
     end
   end  
-  output
+  puts output
 end  
 
 def exit_jukebox 
