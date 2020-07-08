@@ -35,7 +35,6 @@ def play(songs)
     case user_input
       when song then output = "Playing #{song}"
       when "#{index_num+1}" then output = "Playing #{song}"
-      #binding.pry
     end
   end  
   puts output
@@ -57,7 +56,7 @@ def run(songs)
       run
     when "play"
       play(songs)
-      #run
+      run
     when "exit"
       exit_jukebox
     end
