@@ -23,7 +23,8 @@ def play (songs)
       when "2" || "Wait Up"
         puts "Playin Tokyo Police Club - Wait Up"
       when "3" || "Too Much"
-        puts "Playing "
+        puts "Playing Sufjan Stevens - Too Much"
+        
         
         
       else
