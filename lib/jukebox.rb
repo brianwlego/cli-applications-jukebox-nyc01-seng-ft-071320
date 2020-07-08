@@ -32,7 +32,7 @@ def play(songs)
   user_input = gets.strip
   songs.each_with_index do |song, index|
     case 
-      when user_input == "#{index+1}" or song
+      when user_input == "#{index+1}" || song
         puts "Playing #{song}"
       #when user_input == song 
        # puts "Playing #{song}"
