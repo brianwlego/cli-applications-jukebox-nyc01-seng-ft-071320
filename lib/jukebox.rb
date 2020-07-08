@@ -31,6 +31,8 @@ def play (songs)
       when "6" || "Abducted"
         puts "Playing The Cults - Abducted"
       when "7" || "Consolation Prizes"
+        puts "Playing Phoenix - Consolation Prizes"
+      when "8" || "Cats in the Cradle"
         puts "Playing "
         
         
