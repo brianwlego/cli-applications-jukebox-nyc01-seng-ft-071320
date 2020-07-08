@@ -33,7 +33,7 @@ def play(songs)
   #binding.pry
   if user_input.to_i <= songs.length
     puts "Playing #{songs[user_input.to_i-1]}"
-  elsif user_input == songs.each {|song| song}
+  elsif songs.each {|song| user_input == song}
     puts "Playing #{song}"
     binding.pry
   end
