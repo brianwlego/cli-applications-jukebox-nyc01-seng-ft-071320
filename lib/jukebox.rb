@@ -33,7 +33,7 @@ def play(songs)
   #binding.pry
   if user_input.to_i <= songs.length
     puts "Playing #{songs[user_input.to_i]}"
-    
+    binding.pry
   end
 end  
 
