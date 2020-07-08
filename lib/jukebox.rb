@@ -30,14 +30,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  #binding.pry
-  if user_input.to_i == (1..9)
-    #binding.pry
-    puts "Playing #{songs[user_input.to_i-1]}"
-  #elsif songs.each {|song| user_input == song}
-   # puts "Playing #{song}"
-    #binding.pry
-  end
+  
 end  
 
 def exit_jukebox 
