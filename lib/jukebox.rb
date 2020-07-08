@@ -32,7 +32,7 @@ def play(songs)
   user_input = gets.strip
   binding.pry
   if user_input.to_i <= songs.length
-    puts "Playing #{songs[user_input.to_i]}"
+    puts "Playing #{songs[user_input.to_i-1]}"
     binding.pry
   end
 end  
