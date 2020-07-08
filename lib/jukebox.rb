@@ -36,7 +36,7 @@ def play(songs)
     case user_input
       when song then puts "Playing #{song}"
       when "#{index+1}" then puts "Playing #{song}"
-      binding.pry  
+      #binding.pry  
     end 
   end  
 end  
