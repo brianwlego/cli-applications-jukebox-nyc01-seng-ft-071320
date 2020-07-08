@@ -32,12 +32,7 @@ def play(songs)
   user_input = gets.strip
   binding.pry
 
-    case user_input
-      when  then puts "Playing #{}"
-      when "#{}" then puts "Playing #{}"
-      else puts "Invalid input, please try again"
-      #binding.pry  
-    end 
+    
     
 end  
 
